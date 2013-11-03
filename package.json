@@ -1,0 +1,33 @@
+{
+    "name" : "tsunami",
+    "version" : "0.1.0",
+    "description" : "wave-based platform",
+    "main" : "index.js",
+    "bin" : {},
+    "directories" : {
+        "example" : "example"
+    },
+    "dependencies" : {
+        "tilemap" : "*",
+        "wave" :"*"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/scottbw/tsunami.git"
+    },
+    "homepage" : "https://github.com/scottbw/tsuname",
+    "keywords" : [
+        "isometric",
+        "wave",
+        "tile",
+        "engine",
+        "map",
+        "game"
+    ],
+    "author" : {
+        "name" : "Scott Wilson",
+        "email" : "scott.bradley.wilson@gmail.com"
+    },
+    "license" : "ASL 2.0",
+    "engine" : { "node" : ">=0.6" }
+}
